@@ -1,2 +1,2 @@
-# datascience-project
-With my partner Lupita Jimenez
+# Women in STEM Data Science Project
+Names: Brianna Zaffina & Lupita Jimenez
