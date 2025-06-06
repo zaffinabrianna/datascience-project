@@ -1,0 +1,244 @@
+Country,Year,Female Enrollment (%),Female Graduation Rate (%),ECS Fields
+Australia,2000,25.3,41.7,Computer Science
+Australia,2000,30.4,32.9,Computer Science
+Australia,2000,47.5,11,Computer Science
+Australia,2000,68,31.3,Engineering
+Australia,2001,40,11.6,Engineering
+Australia,2001,51.1,50.7,Computer Science
+Australia,2003,24.2,54,Computer Science
+Australia,2003,25.7,36.9,Computer Science
+Australia,2003,52,26.9,Computer Science
+Australia,2003,66.9,33.7,Engineering
+Australia,2006,64.6,59.7,Engineering
+Australia,2007,33.5,24.5,Computer Science
+Australia,2007,52,33.1,Computer Science
+Australia,2010,25.5,39.3,Engineering
+Australia,2010,60.8,11.4,Engineering
+Australia,2010,60.9,53.2,Engineering
+Australia,2011,48.1,50,Engineering
+Australia,2011,57.2,16.1,Computer Science
+Australia,2012,50.3,16.6,Computer Science
+Australia,2015,51.5,16.4,Engineering
+Australia,2015,66.9,54.8,Computer Science
+Australia,2016,36.2,13.4,Engineering
+Australia,2017,29.2,54.2,Computer Science
+Australia,2018,62.3,51.5,Computer Science
+Australia,2019,52.2,57.8,Engineering
+Australia,2019,55.4,61.9,Engineering
+Australia,2019,64,20.7,Computer Science
+Australia,2020,36.2,38.9,Engineering
+Australia,2020,44.8,40.8,Computer Science
+Australia,2021,29,54.3,Computer Science
+Australia,2022,23.4,37.8,Computer Science
+Australia,2022,33.8,59.3,Engineering
+Australia,2022,46.7,35.9,Computer Science
+Australia,2022,57.9,50.2,Engineering
+Australia,2023,23.3,56.5,Computer Science
+Canada,2000,21,21.3,Computer Science
+Canada,2001,34.4,11.4,Engineering
+Canada,2001,60.7,37.7,Engineering
+Canada,2002,48.4,18.2,Engineering
+Canada,2002,58.2,28.9,Engineering
+Canada,2002,69,23.2,Engineering
+Canada,2003,61.3,56.8,Engineering
+Canada,2004,65.5,23.2,Computer Science
+Canada,2004,68.6,47.1,Computer Science
+Canada,2005,44.5,56.9,Engineering
+Canada,2006,27.7,59,Engineering
+Canada,2006,28,13.8,Engineering
+Canada,2006,32.3,12.6,Engineering
+Canada,2006,35.7,35.9,Computer Science
+Canada,2006,36.7,25.9,Engineering
+Canada,2006,63.1,39.1,Computer Science
+Canada,2007,46.1,40.2,Computer Science
+Canada,2007,59.1,59.8,Engineering
+Canada,2008,34.6,41.1,Computer Science
+Canada,2008,35.1,56.5,Computer Science
+Canada,2008,47.9,43.6,Computer Science
+Canada,2009,23.7,41.5,Computer Science
+Canada,2009,37.9,51.9,Engineering
+Canada,2010,43.3,29,Computer Science
+Canada,2010,54.4,28.8,Engineering
+Canada,2012,20.1,27.2,Computer Science
+Canada,2012,22,41.5,Engineering
+Canada,2012,23.6,38.7,Engineering
+Canada,2012,46,11.1,Engineering
+Canada,2012,57,35.1,Engineering
+Canada,2013,69.1,32.9,Engineering
+Canada,2014,55.2,63.1,Engineering
+Canada,2015,57.5,40.8,Engineering
+Canada,2015,57.7,44.7,Computer Science
+Canada,2016,23.4,21.6,Engineering
+Canada,2016,26.1,28.7,Computer Science
+Canada,2016,30.4,61.3,Engineering
+Canada,2017,41.4,23.3,Engineering
+Canada,2018,53.2,48.1,Computer Science
+Canada,2019,30.4,54.2,Computer Science
+Canada,2019,41.9,18.8,Computer Science
+Canada,2019,68.2,48.3,Engineering
+Canada,2020,57,45.5,Computer Science
+Canada,2021,37.2,52.3,Computer Science
+Canada,2021,47.7,50.4,Computer Science
+Canada,2021,60.8,28.1,Engineering
+Canada,2022,28.3,32.3,Engineering
+Canada,2023,33.2,18,Engineering
+Canada,2023,64.2,42.5,Computer Science
+China,2000,48.1,57.3,Computer Science
+China,2001,37.6,29.3,Computer Science
+China,2001,48.4,62.9,Computer Science
+China,2002,21.8,10.8,Engineering
+China,2002,23.7,39.6,Computer Science
+China,2002,43.8,29.6,Engineering
+China,2003,53.3,39.1,Engineering
+China,2004,32.7,32.2,Engineering
+China,2005,29.8,56.9,Engineering
+China,2005,36.1,38.7,Computer Science
+China,2005,45.5,62.8,Engineering
+China,2005,46.2,47.9,Computer Science
+China,2005,53.1,30.8,Computer Science
+China,2005,60.1,54.8,Engineering
+China,2005,62.6,46.3,Engineering
+China,2006,42.4,10.8,Engineering
+China,2006,47.4,52.2,Engineering
+China,2007,22.8,58.3,Engineering
+China,2007,30.5,63.2,Engineering
+China,2007,40.6,46.1,Engineering
+China,2008,34.2,20.6,Engineering
+China,2009,52.3,51.6,Engineering
+China,2010,51,28,Engineering
+China,2010,65.6,26.5,Engineering
+China,2011,31.3,53.6,Engineering
+China,2011,58.5,12.7,Computer Science
+China,2013,44.3,56.2,Engineering
+China,2013,52,55.9,Computer Science
+China,2013,65.8,26.9,Computer Science
+China,2014,20.4,27.9,Engineering
+China,2014,56,56.2,Engineering
+China,2015,20.8,23.9,Engineering
+China,2015,54.4,22.2,Engineering
+China,2016,68.7,34.7,Computer Science
+China,2017,30.7,57.8,Engineering
+China,2017,55.3,19.2,Engineering
+China,2018,20.4,43.2,Engineering
+China,2019,22.8,37.5,Computer Science
+China,2020,36.7,64.3,Computer Science
+China,2020,63.6,62.4,Engineering
+China,2020,68.3,57,Engineering
+China,2023,53.7,43.6,Engineering
+China,2023,54.9,18.1,Engineering
+Germany,2001,26.6,14.1,Engineering
+Germany,2002,30.4,32.2,Engineering
+Germany,2003,21.1,50,Computer Science
+Germany,2003,45.1,43.4,Computer Science
+Germany,2003,52.5,57.9,Engineering
+Germany,2004,35.4,33.9,Engineering
+Germany,2007,31.6,39.8,Computer Science
+Germany,2007,41.1,51.3,Computer Science
+Germany,2007,46.3,23.4,Computer Science
+Germany,2007,57.1,20.5,Engineering
+Germany,2008,25.9,43,Engineering
+Germany,2008,49.5,17.8,Computer Science
+Germany,2010,34.7,34.2,Engineering
+Germany,2012,22.4,14.5,Engineering
+Germany,2012,40,56.3,Computer Science
+Germany,2012,40.8,49.2,Computer Science
+Germany,2014,53.6,17.1,Computer Science
+Germany,2015,20.6,61.9,Engineering
+Germany,2016,39.3,64.9,Engineering
+Germany,2016,40,51.6,Computer Science
+Germany,2016,60.5,48.9,Engineering
+Germany,2017,56.5,14,Computer Science
+Germany,2018,54.5,23.7,Computer Science
+Germany,2018,56.6,25,Engineering
+Germany,2019,21.5,64.1,Computer Science
+Germany,2019,41,17,Engineering
+Germany,2019,43.4,34.3,Engineering
+Germany,2019,68.4,42.3,Engineering
+Germany,2020,39.2,28.3,Engineering
+Germany,2021,45.8,10.9,Computer Science
+Germany,2021,51.6,54.8,Engineering
+Germany,2022,22.9,44.9,Engineering
+Germany,2023,20.9,63.9,Computer Science
+Germany,2023,34.8,21.3,Computer Science
+Germany,2023,36.4,24.5,Computer Science
+Germany,2023,37.3,49.3,Computer Science
+Germany,2023,69.4,24.1,Computer Science
+India,2000,29.5,38.1,Engineering
+India,2000,61.6,51.2,Engineering
+India,2001,20.4,18.2,Engineering
+India,2001,37.7,23.4,Computer Science
+India,2001,53,54.5,Computer Science
+India,2002,35.6,24,Engineering
+India,2003,36.8,42.9,Computer Science
+India,2003,42.6,21.2,Engineering
+India,2003,49.6,22,Computer Science
+India,2003,61.8,22.5,Computer Science
+India,2004,23.3,56.6,Engineering
+India,2004,44.6,32,Computer Science
+India,2005,37,64.6,Computer Science
+India,2005,47.1,30.9,Computer Science
+India,2005,55.9,35.3,Computer Science
+India,2005,61.6,12.1,Computer Science
+India,2005,65.7,22.2,Engineering
+India,2006,26.4,51.1,Computer Science
+India,2007,57.9,48.8,Engineering
+India,2008,27.6,49.1,Computer Science
+India,2009,48,32.8,Computer Science
+India,2010,21.5,19.2,Computer Science
+India,2010,46.1,12.8,Engineering
+India,2010,59.1,61.2,Engineering
+India,2013,21.1,39.5,Computer Science
+India,2013,42.4,51.7,Engineering
+India,2014,36.3,22.4,Computer Science
+India,2014,49.5,62.6,Engineering
+India,2015,56.9,63.8,Engineering
+India,2016,28.6,58.9,Engineering
+India,2016,45.3,40.6,Engineering
+India,2017,48.2,53.4,Engineering
+India,2018,65.1,19.5,Computer Science
+India,2019,38.4,25.2,Computer Science
+India,2020,33,25.5,Engineering
+India,2022,23.8,46,Computer Science
+India,2022,35.6,19.6,Engineering
+India,2022,41.5,61.9,Computer Science
+India,2022,53.4,49.8,Computer Science
+India,2022,69.5,31.6,Engineering
+India,2023,20.4,28,Computer Science
+India,2023,22.1,25.6,Engineering
+India,2023,26.7,15,Computer Science
+USA,2000,50.5,27,Computer Science
+USA,2002,37.5,17.7,Engineering
+USA,2002,43.5,62.4,Engineering
+USA,2002,53.2,26.4,Computer Science
+USA,2003,63.2,12,Engineering
+USA,2004,47.5,64.1,Computer Science
+USA,2005,22.6,21.2,Engineering
+USA,2006,20.7,22.4,Engineering
+USA,2006,36.6,45.7,Computer Science
+USA,2007,38.7,40.4,Engineering
+USA,2008,28.8,22.6,Computer Science
+USA,2008,49.2,47.2,Computer Science
+USA,2009,51.1,51.9,Computer Science
+USA,2009,59.7,34.9,Engineering
+USA,2010,50.6,50.9,Engineering
+USA,2010,68.2,22.3,Engineering
+USA,2012,62.2,27.4,Computer Science
+USA,2012,63.5,43.3,Computer Science
+USA,2014,28.7,49.3,Computer Science
+USA,2014,33.6,60.2,Engineering
+USA,2014,41.8,50,Engineering
+USA,2015,32,48.5,Computer Science
+USA,2016,38.7,12.6,Engineering
+USA,2017,29.7,11.4,Engineering
+USA,2017,41.7,39,Engineering
+USA,2017,51,50.8,Engineering
+USA,2017,53.4,32.6,Computer Science
+USA,2019,58.3,61.6,Engineering
+USA,2019,59.5,28.3,Computer Science
+USA,2020,67.2,31.1,Computer Science
+USA,2021,32.4,59.2,Engineering
+USA,2022,22.1,61.1,Engineering
+USA,2022,30.9,11.4,Engineering
+USA,2022,59.3,55.5,Engineering
+USA,2023,26.7,22.8,Engineering
+USA,2023,32.4,11,Computer Science
