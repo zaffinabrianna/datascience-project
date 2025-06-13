@@ -8,17 +8,17 @@ import matplotlib.pyplot as plt
 def main():
     #colors = ["#F99DBC", "#B795D7"]
     # Read dataset
-    df = pd.read_csv('women-in-ECS.csv')
+    df = pd.read_csv('fullerton_cs.csv')
     #Hot code the datasets for country and ECS_Fields:
-    df_encoded = pd.get_dummies(df, columns=['Country'])
+    df_encoded = pd.get_dummies(df, columns=['Year'])
 
     # Add Features for the clustering plot: Using female enrollment rate and female graduation rate 
-    features = ['Female_Enrollment', 'Female_Graduation_Rate'] + \
-    [col for col in df_encoded.columns if col.startswith('Country_')]
+    features = ['Female_Num_Graduation', 'Male_Num_Graduation', 'Female_Num_Enrolled', 'Male_Num_Enrolled'] + \
+    [col for col in df_encoded.columns if col.startswith('Year_')]
     # Give features to variable X
     X = df_encoded[features]
 
-    # Create a scaler to scale features X | Learns mean and SD for Mean and applies a scale for it to prevent bias
+    # Create a scaler to scale features X | Learns mean a nd SD for Mean and applies a scale for it to prevent bias
     scaler = StandardScaler()
     X_scaler = scaler.fit_transform(X)
 
@@ -28,8 +28,8 @@ def main():
 
     #Create seaborn scatterplot first:
     sns.scatterplot(
-        x='Female_Enrollment', # x variable as female_enrollment
-        y='Female_Graduation_Rate', # y variable as female graduation rate
+        x= 'Female_Num_Enrolled', # x variable as female_enrollment
+        y= 'Female_Num_Graduation', # y variable as female graduation rate
         hue = 'Cluster',
         palette='cool',
         data = df_encoded, # use the data set that has comp sci and USA
@@ -49,8 +49,8 @@ def main():
         label='Centroids' 
         ) #cmap = color scheme
     
-    plt.xlabel('Female Enrollment Percentage') # x label
-    plt.ylabel('Female Graduation Rate') # y label
+    plt.xlabel('Number of Females who Enrolled') # x label
+    plt.ylabel('Number of Females who Graduated') # y label
     plt.title('K-Means Clustering Based on Female Enrollment % and Female Graduation Rate for USA Comp Sci') # graph title
     plt.show() # Output the graph
 
