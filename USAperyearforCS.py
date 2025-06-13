@@ -30,7 +30,9 @@ def main():
     #plt.title('Graph')
 
     #plt.show()
-    
+    us_data = df[
+        (df['Country'] == 'USA') &
+        (df['ECS_Fields'] == 'Computer Science')]
     #Now using with seaborn:
     colors = ["#F99DBC", "#B795D7"]
     sns.set_palette(colors)
@@ -38,10 +40,10 @@ def main():
     #For the barplot:
     #Country
     line_plots = sns.barplot(
-        x="Country", # x var. = country
+        x="Year", # x var. = country
         y="Female_Graduation_Rate", # y var. = female graduation rate
         hue = "ECS_Fields", # different bars for comp sci and engineering
-        data=df[df["ECS_Fields"].isin(["Computer Science", "Engineering"])],
+        data= us_data,
         errorbar=None
     )
     
