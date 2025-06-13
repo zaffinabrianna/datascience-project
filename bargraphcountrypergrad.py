@@ -10,9 +10,11 @@ def main():
     #print(arr)
     #print(type(arr))
 
+    # Read and print CSV
     temp = pd.read_csv('women-in-ECS.csv')
     print(temp.to_string())
 
+    # Read csv columns and print
     df = pd.read_csv('women-in-ECS.csv')
     print(df.columns.tolist())
     #Disregard this, this was orginally using pandas:
@@ -36,11 +38,11 @@ def main():
     #For the barplot:
     #Country
     line_plots = sns.barplot(
-        x="Country",
-        y="Female_Graduation_Rate",
-        hue = "ECS_Fields",
+        x="Country", # x var. = country
+        y="Female_Graduation_Rate", # y var. = female graduation rate
+        hue = "ECS_Fields", # different bars for comp sci and engineering
         data=df[df["ECS_Fields"].isin(["Computer Science", "Engineering"])],
-        ci=None
+        errorbar=None
     )
     
     #For the line plots:
@@ -52,6 +54,7 @@ def main():
     #    ci=None
     #)
 
+    # Show the graph
     plt.show()
 
 

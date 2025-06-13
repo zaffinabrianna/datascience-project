@@ -10,9 +10,11 @@ def main():
     #print(arr)
     #print(type(arr))
 
+    #Read the CSV and print it to the screen
     temp = pd.read_csv('women-in-ECS.csv')
     print(temp.to_string())
 
+    #Print the columns in the CSV
     df = pd.read_csv('women-in-ECS.csv')
     print(df.columns.tolist())
     #Disregard this, this was orginally using pandas:
@@ -30,17 +32,19 @@ def main():
     #plt.show()
 
     #Now using with seaborn:
-    colors = ["#F99DBC", "#B795D7"]
+    colors = ["#F99DBC", "#B795D7"] # Custum color palette
     sns.set_palette(colors)
 
     #For the barplot:
     #Year
+    # Change graph size for better visualization
+    plt.figure(figsize=(20, 6))
     line_plots = sns.barplot(
-        x="Year",
-        y="Female_Graduation_Rate",
-        hue = "ECS_Fields",
+        x="Year", # x variable is year
+        y="Female_Graduation_Rate", # y variable is female graduation rate
+        hue = "ECS_Fields", # two different categories for Engineering and Comp sci
         data=df[df["ECS_Fields"].isin(["Computer Science", "Engineering"])],
-        ci=None
+        errorbar=None
     )
     
     #Country
@@ -61,6 +65,7 @@ def main():
     #    ci=None
     #)
 
+    #Show the graph
     plt.show()
 
 

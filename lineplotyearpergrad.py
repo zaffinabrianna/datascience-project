@@ -10,9 +10,11 @@ def main():
     #print(arr)
     #print(type(arr))
 
+    # Read CSV and output to console
     temp = pd.read_csv('women-in-ECS.csv')
     print(temp.to_string())
 
+    # Read CSV columns and output to console
     df = pd.read_csv('women-in-ECS.csv')
     print(df.columns.tolist())
     #Disregard this, this was orginally using pandas:
@@ -34,14 +36,15 @@ def main():
     sns.set_palette(colors)
     
     #For the line plots:
-    line_plots = sns.lineplot(
-        x="Year",
-        y="Female_Graduation_Rate",
-        hue = "ECS_Fields",
+    line_plots = sns.lineplot( # make seaborn line plot
+        x="Year", # x var = year
+        y="Female_Graduation_Rate", # y var = female graduation rate
+        hue = "ECS_Fields", # Seperate two lines for comp sci and engineering
         data=df[df["ECS_Fields"].isin(["Computer Science", "Engineering"])],
-        ci=None
+        errorbar=None
     )
 
+    # Output to console
     plt.show()
 
 
